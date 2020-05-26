@@ -1,53 +1,52 @@
 .BreadBottom {
   height: 15%;
   width: 50%;
-  background-image: url(../../../assets/burgerImages/bread-bottom.svg);
+  background-image: url(../../../assets/burgerImages/bread-bottom.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
 }
 
 .BreadTop {
-  height: 20%;
+  height: 23%;
   width: 50%;
-  background-image: url(../../../assets/burgerImages/bread-top.svg);
+  background-image: url(../../../assets/burgerImages/bread-top.png);
   background-repeat: no-repeat;
-
-  background-size: 100%;
+  background-size: cover;
   margin: auto;
 }
 
 .Meat {
-  height: 8.8%;
+  height: 10.5%;
   width: 50%;
-  background-image: url(../../../assets/burgerImages/meat.svg);
+  background-image: url(../../../assets/burgerImages/meat.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
 }
 
 .Cheese {
-  height: 5.9%;
+  height: 6%;
   width: 50%;
-  background-image: url(../../../assets/burgerImages/cheese.svg);
+  background-image: url(../../../assets/burgerImages/cheese.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
 }
 
 .Salad {
-  height: 5.9%;
+  height: 6%;
   width: 50%;
-  background-image: url(../../../assets/burgerImages/salad.svg);
+  background-image: url(../../../assets/burgerImages/salad.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
 }
 
 .Bacon {
-  height: 5.9%;
+  height: 6%;
   width: 50%;
-  background-image: url(../../../assets/burgerImages/bacon.svg);
+  background-image: url(../../../assets/burgerImages/bacon.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: auto;
