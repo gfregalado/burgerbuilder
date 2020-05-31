@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+  color: white;
+  background-color: #fce467;
 }
