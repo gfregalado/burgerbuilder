@@ -1,5 +1,5 @@
 .BreadBottom {
-  height: 15%;
+  height: 44px;
   width: 50%;
   background-image: url(../../../assets/burgerImages/bread-bottom.png);
   background-repeat: no-repeat;
@@ -8,8 +8,8 @@
 }
 
 .BreadTop {
-  height: 22.5%;
-  width: 50%;
+  height: 76px;
+  width: 51%;
   background-image: url(../../../assets/burgerImages/bread-top.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,8 +17,8 @@
 }
 
 .Meat {
-  height: 10.5%;
-  width: 50%;
+  height: 35px;
+  width: 53%;
   background-image: url(../../../assets/burgerImages/meat.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -26,7 +26,7 @@
 }
 
 .Cheese {
-  height: 6%;
+  height: 19px;
   width: 50%;
   background-image: url(../../../assets/burgerImages/cheese.png);
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .Salad {
-  height: 6%;
+  height: 19px;
   width: 50%;
   background-image: url(../../../assets/burgerImages/salad.png);
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 }
 
 .Bacon {
-  height: 6%;
+  height: 19px;
   width: 50%;
   background-image: url(../../../assets/burgerImages/bacon.png);
   background-repeat: no-repeat;

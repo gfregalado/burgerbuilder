@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../../UI/Button/Button';
+import classes from './OrderSummary.module.css';
 
 const orderSummary = (props) => {
   const indredientSummary = Object.keys(props.ingredients).map((igKey) => {
@@ -16,16 +17,18 @@ const orderSummary = (props) => {
       <h3>Your Order</h3>
       <p>A delicious burguer with the following ingredients:</p>
       <ul>{indredientSummary}</ul>
-      <p>
-        <strong>Total Price: ${props.price.toFixed(2)}</strong>
+      <span>Total Price: ${props.price.toFixed(2)}</span>
+      <p style={{ fontSize: '20px', paddingTop: '20px' }}>
+        Continue to Checkout?
       </p>
-      <p>Continue to Checkout?</p>
-      <Button btnType="Danger" clicked={props.purchaseCancelled}>
-        CANCEL
-      </Button>
-      <Button btnType="Success" clicked={props.purchaseContinued}>
-        CONTINUE
-      </Button>
+      <div className={classes.ButtonBox}>
+        <Button btnType="Danger" clicked={props.purchaseCancelled}>
+          CANCEL
+        </Button>
+        <Button btnType="Success" clicked={props.purchaseContinued}>
+          CONTINUE
+        </Button>
+      </div>
     </React.Fragment>
   );
 };

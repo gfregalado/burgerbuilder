@@ -6,7 +6,8 @@
 }
 
 .NavigationItem a {
-  color: #8f5c2c;
+  text-align: center;
+  color: white;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -16,7 +17,12 @@
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-  color: #40a4c8;
+  text-align: center;
+  border: solid 3px black;
+  color: Black;
+  text-shadow: none;
+  background-color: white;
+  padding: 10px 0px;
 }
 
 @media (min-width: 500px) {
@@ -38,8 +44,9 @@
   .NavigationItem a:hover,
   .NavigationItem a:active,
   .NavigationItem a.active {
-    background-color: #8f5c2c;
-    border-bottom: 4px solid #40a4c8;
-    color: white;
+    border: solid 3px black;
+    color: Black;
+    text-shadow: none;
+    background-color: white;
   }
 }

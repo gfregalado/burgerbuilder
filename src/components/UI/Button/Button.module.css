@@ -6,19 +6,20 @@
   cursor: pointer;
   font: inherit;
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   font-weight: bold;
 }
 
-.Button:first-of-type {
-  margin-left: 0;
-  padding-left: 0;
-}
-
 .Success {
-  color: #5c9210;
+  width: 80%;
+  border: solid 3px black;
+  border-radius: 5px;
+  background-color: #88c11a;
 }
 
 .Danger {
-  color: #944317;
+  width: 80%;
+  border: solid 3px black;
+  border-radius: 5px;
+  background-color: #d44949;
 }
