@@ -52,14 +52,14 @@
   background-repeat: no-repeat;
 }
 
-.BuildControl .Less:hover,
 .BuildControl .Less:active {
-  background-color: #daa972;
-  color: white;
+  position: relative;
+  top: 2px;
+  left: 2px;
 }
 
-.BuildControl .More:hover,
 .BuildControl .More:active {
-  background-color: #99703f;
-  color: white;
+  position: relative;
+  top: 2px;
+  left: 2px;
 }

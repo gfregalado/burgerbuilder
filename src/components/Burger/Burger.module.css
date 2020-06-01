@@ -12,6 +12,9 @@
   .Burger {
     width: 350px;
     height: 300px;
+    margin: 0px auto;
+    position: relative;
+    top: 30px;
   }
 }
 
@@ -19,12 +22,14 @@
   .Burger {
     width: 450px;
     height: 400px;
+    margin: 0px auto;
   }
 }
 
 @media (min-width: 1000px) and (min-height: 700px) {
   .Burger {
-    width: 700px;
-    height: 600px;
+    width: 450px;
+    height: 400px;
+    margin: 100px auto;
   }
 }

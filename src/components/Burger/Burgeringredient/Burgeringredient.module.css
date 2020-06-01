@@ -51,3 +51,29 @@
   background-size: 100%;
   margin: auto;
 }
+
+@media (min-width: 500px) {
+  .BreadBottom {
+    height: 53px;
+  }
+
+  .BreadTop {
+    height: 92px;
+  }
+
+  .Meat {
+    height: 42px;
+  }
+
+  .Cheese {
+    height: 23px;
+  }
+
+  .Salad {
+    height: 23px;
+  }
+
+  .Bacon {
+    height: 23px;
+  }
+}
